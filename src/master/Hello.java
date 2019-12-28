@@ -6,6 +6,7 @@ public class Hello {
 		// TODO Auto-generated method stub
 		System.out.println("Hello From Jenkins");
 		System.out.println("If you are seeing this means it's working");
+		System.out.println("Automated Build Using Github WebHook");
 
 	}
 
