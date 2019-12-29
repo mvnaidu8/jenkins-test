@@ -8,12 +8,14 @@ public class MavenAppTest {
 
 	@Test
 	public void testSquare() {
+		System.out.println("Inside testSquare");
 		MavenApp test = new MavenApp();
 		int output = test.square(5);
 		assertEquals(25, output);
 	}
 	@Test
 	   public void test() {
+		System.out.println("Inside test");
 	      assertTrue(true);
 	   }
 
