@@ -11,7 +11,7 @@ public class MavenAppTest {
 		System.out.println("Inside testSquare");
 		MavenApp test = new MavenApp();
 		int output = test.square(5);
-		assertEquals(25, output);
+		assertEquals(24, output);
 	}
 	@Test
 	   public void test() {
